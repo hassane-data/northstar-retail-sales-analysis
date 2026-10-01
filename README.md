@@ -1,5 +1,5 @@
 # Northstar Retail Sales Analysis
-![Dashboard preview](dashboard-overview.png)
+(![Dashboard preview](image.png)
 
 ## Project overview
 
