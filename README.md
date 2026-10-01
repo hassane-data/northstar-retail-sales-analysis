@@ -55,7 +55,7 @@ The dashboard includes:
 
 ## How to use
 
-Open `Northstar_Retail_Sales_Analysis.xlsx`, then open the `Dashboard` worksheet. Use the slicers on the right to explore the charts by channel, region, and category. The KPI cards and insight panel present the full-year global view.
+Open `Northstar_Retail_Excel_Project_Analysis.xlsx`, then open the `Dashboard` worksheet. Use the slicers on the right to explore the charts by channel, region, and category. The KPI cards and insight panel present the full-year global view.
 
 ## Workbook structure
 
