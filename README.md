@@ -5,6 +5,12 @@
 
 This Excel project analyzes 2025 retail sales performance for Northstar Retail. The goal was to turn a messy transaction dataset into a decision-ready dashboard showing sales, profit, targets, returns, and performance by region, category, and sales channel.
 
+
+## Project workflow
+
+The complete end-to-end analysis workflow is available in the [vertical project workflow](northstar-project-mindmap.md).
+
+
 ## Business questions
 
 - How did net sales evolve during 2025?
