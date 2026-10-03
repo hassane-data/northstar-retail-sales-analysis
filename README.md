@@ -17,17 +17,18 @@ The complete end-to-end analysis workflow is available in the [vertical project 
 - Which regions generated the most sales and profit?
 - Which product categories had the highest return rate?
 - Were monthly sales targets achieved?
-- How do results change by channel, region, and category?
+- How do results change by channel, region, and category
 
 ## Data preparation
 
-The source data contained 721 rows. I cleaned and enriched it in Excel:
+The source data was cleaned and enriched in Excel to produce a final dataset of 720 valid transaction records.
 
-- Removed 14 duplicate records, leaving 720 transactions.
-- Standardized channel, store, payment, and customer fields.
-- Parsed customer information using text functions.
-- Enriched transactions with product name, category, and unit cost using `VLOOKUP`.
-- Created calculated fields for gross sales, discounts, net sales, total cost, profit, profit margin, return flag, and date attributes.
+- Removed exact duplicate records and validated missing, negative, and invalid values.
+- Standardized channel, store, payment method, and customer ID fields.
+- Parsed `Customer_Info` into customer name, city, and segment using text functions.
+- Enriched transactions with product name, category, and unit cost using `VLOOKUP` based on `Product_ID`.
+- Added region using `VLOOKUP` based on `Customer_ID`.
+- Created calculated fields for gross sales, discount amount, net sales, total cost, profit, profit margin, return flag, and date attributes.
 
 ## Dashboard
 
